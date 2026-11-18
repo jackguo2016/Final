@@ -23,3 +23,7 @@ sh target/bin/webapp
 The form is served as `/final.html` when the local server is listening. You can also open the HTML file directly to inspect the form. The form posts to `/servlet/echoName`, but the checked-in project has no explicit servlet mapping for that URL. Full form submission therefore depends on the deployment configuration. The servlet also echoes user input into HTML, so keep the historical demo local.
 
 The server and deployment scaffold came from the [SWE 432 embedded Tomcat example](https://github.com/luminaxster/swe432tomcat).
+
+## Project history
+
+Former repository name: `Final`. This repository preserves the original coursework and its development history.
